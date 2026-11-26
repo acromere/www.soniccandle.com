@@ -10,13 +10,13 @@ test('renders application', () => {
 	render(<App/>)
 
 	// then
-  // const now = new Date()
-  // const copyright = screen.getByText(/©/i)
-  // expect(copyright).toBeInTheDocument()
-  // expect(copyright).toHaveTextContent('© Acromere ' + now.getFullYear())
-  //
-	// const catchphrase = screen.getByText(/Unique/i)
-	// expect(catchphrase).toBeInTheDocument()
-	// expect(catchphrase).toHaveTextContent('Unique products for unique work')
+  const now = new Date()
+  const copyright = screen.getByText(/©/i)
+  expect(copyright).toBeInTheDocument()
+  expect(copyright).toHaveTextContent('© Acromere ' + now.getFullYear())
+
+	const catchphrase = screen.getByText(/Unique/i)
+	expect(catchphrase).toBeInTheDocument()
+	expect(catchphrase).toHaveTextContent('Video for your music')
 })
 
