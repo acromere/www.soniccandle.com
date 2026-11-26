@@ -11,11 +11,11 @@ test('renders application', () => {
 
 	// then
   const now = new Date()
-  const copyright = screen.getByText(/©/i)
+  const copyright = screen.getByText(/© Acromere/i)
   expect(copyright).toBeInTheDocument()
   expect(copyright).toHaveTextContent('© Acromere ' + now.getFullYear())
 
-	const catchphrase = screen.getByText(/Unique/i)
+	const catchphrase = screen.getByText(/Video for your music/i)
 	expect(catchphrase).toBeInTheDocument()
 	expect(catchphrase).toHaveTextContent('Video for your music')
 })

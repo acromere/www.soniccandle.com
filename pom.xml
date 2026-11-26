@@ -52,6 +52,11 @@
 			<artifactId>lombok</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.acromere</groupId>
+			<artifactId>sonic</artifactId>
+			<version>[0.4,)</version>
+		</dependency>
 
 		<dependency><!-- this triggers junit5 mode of surefire plugin -->
 			<groupId>org.junit.jupiter</groupId>
@@ -84,7 +89,6 @@
 				</configuration>
 			</plugin>
 
-			<!-- 
 			<plugin>
 				<groupId>com.acromere</groupId>
 				<artifactId>cameo</artifactId>
@@ -100,42 +104,41 @@
 				<configuration>
 					<images>
 						<image>
-							<class>com.acromere.zenna.icon.WingDiscLargeIcon</class>
+							<class>com.acromere.sonic.SonicCandleIcon</class>
 							<target>${images-folder}/product.png</target>
 							<theme>dark</theme>
 						</image>
 						<image>
-							<class>com.acromere.zenna.icon.WingDiscLargeIcon</class>
+							<class>com.acromere.sonic.SonicCandleIcon</class>
 							<target>${images-folder}/product-dark.png</target>
 							<theme>dark</theme>
 						</image>
 						<image>
-							<class>com.acromere.zenna.icon.WingDiscLargeIcon</class>
+							<class>com.acromere.sonic.SonicCandleIcon</class>
 							<target>${images-folder}/product-light.png</target>
 							<theme>light</theme>
 						</image>
-						<image>
-							<class>com.acromere.zenna.icon.WingDiscLargeIcon</class>
-							<target>${images-folder}/product-avatar.png</target>
-							<theme>light</theme>
-							<offsetX>64</offsetX>
-							<offsetY>64</offsetY>
-							<imageWidth>384</imageWidth>
-							<imageHeight>384</imageHeight>
-						</image>
-						<image>
-							<class>com.acromere.zenna.icon.WingDiscLargeIcon</class>
-							<target>${images-folder}/product-avatar-circle.png</target>
-							<theme>light</theme>
-							<offsetX>64</offsetX>
-							<offsetY>40</offsetY>
-							<imageWidth>384</imageWidth>
-							<imageHeight>384</imageHeight>
-						</image>
+<!--						<image>-->
+<!--							<class>com.acromere.sonic.SonicCandleIcon</class>-->
+<!--							<target>${images-folder}/product-avatar.png</target>-->
+<!--							<theme>light</theme>-->
+<!--							<offsetX>64</offsetX>-->
+<!--							<offsetY>64</offsetY>-->
+<!--							<imageWidth>384</imageWidth>-->
+<!--							<imageHeight>384</imageHeight>-->
+<!--						</image>-->
+<!--						<image>-->
+<!--							<class>com.acromere.sonic.SonicCandleIcon</class>-->
+<!--							<target>${images-folder}/product-avatar-circle.png</target>-->
+<!--							<theme>light</theme>-->
+<!--							<offsetX>64</offsetX>-->
+<!--							<offsetY>40</offsetY>-->
+<!--							<imageWidth>384</imageWidth>-->
+<!--							<imageHeight>384</imageHeight>-->
+<!--						</image>-->
 					</images>
 				</configuration>
 			</plugin>
-			-->
 
 		</plugins>
 	</build>
