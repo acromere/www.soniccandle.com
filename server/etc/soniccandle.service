@@ -1,0 +1,12 @@
+[Unit]
+Description=soniccandle
+After=syslog.target
+
+[Service]
+User=acm
+WorkingDirectory=/opt/acm/web/www.soniccandle.com/server
+ExecStart=java -jar soniccandle.jar --server.port=5050 --spring.profiles.active=prod
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
