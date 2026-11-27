@@ -39,14 +39,14 @@
 	</properties>
 
 	<dependencies>
-<!--		<dependency>-->
-<!--			<groupId>com.acromere</groupId>-->
-<!--			<artifactId>zevra</artifactId>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>com.acromere</groupId>-->
-<!--			<artifactId>zenna</artifactId>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>com.acromere</groupId>
+			<artifactId>zevra</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.acromere</groupId>
+			<artifactId>zenna</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>com.acromere</groupId>
 			<artifactId>xenon</artifactId>
@@ -116,6 +116,7 @@
 			<plugin>
 				<groupId>com.acromere</groupId>
 				<artifactId>cameo</artifactId>
+				<version>3.0-SNAPSHOT</version>
 				<executions>
 					<execution>
 						<id>render-images</id>
