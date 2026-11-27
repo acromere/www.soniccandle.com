@@ -1,4 +1,4 @@
-package com.acromere.www;
+package com.soniccandle.www;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

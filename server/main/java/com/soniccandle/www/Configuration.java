@@ -1,4 +1,4 @@
-package com.acromere.www;
+package com.soniccandle.www;
 
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
