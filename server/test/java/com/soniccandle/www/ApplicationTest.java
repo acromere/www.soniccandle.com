@@ -1,4 +1,4 @@
-package com.acromere.www;
+package com.soniccandle.www;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
